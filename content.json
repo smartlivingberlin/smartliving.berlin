@@ -1,5 +1,33 @@
 [
   {
+    "id": "zins-→-preis:-berlin-&-umland",
+    "title": "Zins → Preis: Berlin & Umland",
+    "topic": "markt",
+    "img": "./card_2.jpg",
+    "url": "#aktuell",
+    "source": "smartliving",
+    "date": "2025-09-10",
+    "tags": [
+      "markt",
+      "zins"
+    ],
+    "excerpt": "Wie Zinsen Preise bewegen."
+  },
+  {
+    "id": "maklerprovision:-praxis-kurzcheck",
+    "title": "Maklerprovision: Praxis-Kurzcheck",
+    "topic": "kauf",
+    "img": "./card_1.jpg",
+    "url": "https://...",
+    "source": "bgh",
+    "date": "2025-09-10",
+    "tags": [
+      "kauf",
+      "provision"
+    ],
+    "excerpt": "Halbteilung in 3 Punkten – Klartext."
+  },
+  {
     "title": "Grundriss clever nutzen (3 Tricks)",
     "topic": "kauf",
     "img": "./card_1.jpg",
