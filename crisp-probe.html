@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Crisp Probe</title>
+<p>Debug: Diese Seite versucht den Chat sichtbar zu machen und loggt in die Konsole.</p>
+<script src="crisp.js"></script>
+<script>
+  console.log('[probe] $crisp initial:', !!window.$crisp);
+  // Nach 1s Chat anzeigen/öffnen versuchen
+  setTimeout(() => {
+    try {
+      window.$crisp.push(['do','chat:show']);
+      window.$crisp.push(['do','chat:open']);
+      console.log('[probe] show/open ausgelöst');
+    } catch(e) { console.log('[probe] Fehler', e); }
+  }, 1000);
+  // Nach 3s prüfen, ob das Crisp-Iframe existiert
+  setTimeout(() => {
+    const ok = !!document.querySelector('iframe[src*="crisp.chat"]');
+    console.log('[probe] Crisp-Iframe vorhanden:', ok);
+  }, 3000);
+</script>
