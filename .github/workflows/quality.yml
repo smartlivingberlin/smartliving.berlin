@@ -1,13 +1,18 @@
 name: quality
 on:
-  schedule: [{cron: "17 3 * * *"}]
+  schedule: [{cron: "23 3 * * *"}]  # täglich 03:23 Uhr
   workflow_dispatch:
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update && sudo apt-get install -y lychee html-xml-utils jq
-      - run: |
-          lychee --max-concurrency 4 --timeout 20 --insecure index.html || true
-          test -f content.json && jq empty content.json
+      - run: sudo apt-get update && sudo apt-get install -y jq
+      - name: JSON valid
+        run: jq empty content.json
+      - name: Link check (basic)
+        run: |
+          grep -Eo 'https?://[^") ]+' index.html | while read -r u; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$u" || echo 000)
+            echo "$code $u"
+          done
