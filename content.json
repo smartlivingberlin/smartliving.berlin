@@ -34,5 +34,11 @@
     "topic": "markt",
     "img": "./card_3.jpg",
     "url": "#aktuell"
+  },
+  {
+    "title": "Neue Marktinfo",
+    "img": "./card_4.jpg",
+    "topic": "#wissen",
+    "excerpt": "Zinsen steigen – was heißt das?"
   }
 ]
