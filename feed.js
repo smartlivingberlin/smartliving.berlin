@@ -1,18 +1,16 @@
 fetch('./content.json')
-  .then(res => res.json())
-  .then(data => {
-    const container = document.getElementById('feedwrap');
-    container.innerHTML = '';
-    data.forEach(item => {
-      const card = document.createElement('div');
-      card.className = 'card';
-      card.innerHTML = `
-        <img src="${item.img}" alt="${item.title}" style="width:100%;border-radius:8px;margin-bottom:10px;">
-        <h3>${item.title}</h3>
-        <p>${item.excerpt}</p>
-        <a href="${item.url}" class="btn">Mehr erfahren</a>
-      `;
-      container.appendChild(card);
+  .then(r => r.json())
+  .then(items => {
+    const c = document.getElementById('feedwrap'); c.innerHTML='';
+    items.forEach(it => {
+      const el = document.createElement('div'); el.className='card';
+      el.innerHTML = `
+        <img src="${it.img}" alt="${it.title}" style="width:100%;border-radius:8px;margin-bottom:10px;">
+        <div class="meta">${it.topic || ''} • ${it.date || ''} ${it.source ? '• '+it.source : ''}</div>
+        <h3>${it.title}</h3>
+        <p>${it.excerpt||''}</p>
+        <a href="${it.url}" class="btn" target="_blank" rel="noopener">Mehr erfahren</a>`;
+      c.appendChild(el);
     });
   })
   .catch(err => console.error('Feed Fehler:', err));
