@@ -1,7 +1,38 @@
 [
-  {"title":"Wohnungssuche: 5 Hebel","topic":"miete","img":"./card_3.jpg","url":"#wissen"},
-  {"title":"Maklerprovision – einfach","topic":"kauf","img":"./card_1.jpg","url":"https://www.bundesgerichtshof.de/DE/Presse/Pressemitteilungen/_node.html"},
-  {"title":"Förder-Kurzcheck","topic":"foerderung","img":"./card_2.jpg","url":"https://www.kfw.de"},
-  {"title":"ZVG: Einstieg","topic":"zvg","img":"./card_3.jpg","url":"#wissen"},
-  {"title":"Markt-Logik erklärt","topic":"markt","img":"./card_3.jpg","url":"#aktuell"}
+  {
+    "title": "Grundriss clever nutzen (3 Tricks)",
+    "topic": "kauf",
+    "img": "./card_1.jpg",
+    "url": "#wissen"
+  },
+  {
+    "title": "Wohnungssuche: 5 Hebel",
+    "topic": "miete",
+    "img": "./card_3.jpg",
+    "url": "#wissen"
+  },
+  {
+    "title": "Maklerprovision – einfach",
+    "topic": "kauf",
+    "img": "./card_1.jpg",
+    "url": "https://www.bundesgerichtshof.de/DE/Presse/Pressemitteilungen/_node.html"
+  },
+  {
+    "title": "Förder-Kurzcheck",
+    "topic": "foerderung",
+    "img": "./card_2.jpg",
+    "url": "https://www.kfw.de"
+  },
+  {
+    "title": "ZVG: Einstieg",
+    "topic": "zvg",
+    "img": "./card_3.jpg",
+    "url": "#wissen"
+  },
+  {
+    "title": "Markt-Logik erklärt",
+    "topic": "markt",
+    "img": "./card_3.jpg",
+    "url": "#aktuell"
+  }
 ]
