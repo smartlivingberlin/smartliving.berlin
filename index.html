@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>SmartLivingBerlin – Immobilienwissen für Berlin & Umland</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Einfaches, klares Immobilienwissen für Berlin & Umland: Recht verständlich (keine Rechtsberatung), Förderung im Überblick, Marktlogik erklärt.">
+  <link rel="canonical" href="https://smartlivingberlin.example/">
+  <meta property="og:title" content="SmartLivingBerlin">
+  <meta property="og:description" content="Klarer Einstieg in Immobilienwissen für Berlin & Umland.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://smartlivingberlin.example/">
+  <meta property="og:image" content="https://smartlivingberlin.example/og-image.jpg">
+  <style>
+    :root{--bg:#ffffff;--fg:#0b0b0b;--muted:#5a5a5a;--accent:#0b6bff;--accent2:#0fb36c;--card:#f6f7f9;--border:#e5e7eb;}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Inter,Arial,sans-serif;line-height:1.5}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1080px;margin:0 auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+    .brand{font-weight:700;font-size:1.1rem}
+    .nav a{margin-left:16px;font-size:.95rem}
+    .hero{padding:48px 0 24px;display:grid;grid-template-columns:1fr;gap:18px}
+    .hero h1{font-size:clamp(1.6rem,4vw,2.4rem);margin:0}
+    .sub{color:var(--muted);max-width:56ch}
+    .cta-row{display:flex;flex-wrap:wrap;gap:10px}
+    .btn{display:inline-block;padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:#fff}
+    .btn.primary{background:var(--fg);color:#fff;border-color:var(--fg)}
+    .grid{display:grid;gap:16px}
+    .kacheln{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin:24px 0}
+    .card{background:var(--card);border:1px solid var(--border);padding:16px;border-radius:12px}
+    .card h3{margin:0 0 8px 0;font-size:1.05rem}
+    .section{padding:24px 0}
+    .list{margin:0;padding-left:18px}
+    .muted{color:var(--muted)}
+    footer{border-top:1px solid var(--border);padding:20px 0;margin-top:24px;font-size:.9rem}
+    .two{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:900px){.hero{grid-template-columns:1.2fr .8fr}.two{grid-template-columns:1.2fr .8fr}}
+    .badge{display:inline-block;font-size:.78rem;padding:4px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;color:var(--muted)}
+    .note{font-size:.9rem}
+    .legal{font-size:.85rem;color:var(--muted)}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"SmartLivingBerlin",
+    "url":"https://smartlivingberlin.example/",
+    "areaServed":{"@type":"Place","name":"Berlin und Umland (100 km)"},
+    "sameAs":[
+      "https://www.instagram.com/smartliving.berlin",
+      "https://www.tiktok.com/@smartliving.berlin",
+      "https://www.linkedin.com/in/smartliving.berlin"
+    ],
+    "contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"info@DEINE-DOMAIN.de","areaServed":"DE"}]
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">SmartLivingBerlin</div>
+      <nav class="nav">
+        <a href="#wissen">Wissen</a>
+        <a href="#aktuell">Aktuell</a>
+        <a href="#social">Social</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <span class="badge">Berlin & Umland (100 km)</span>
+        <h1>Einfach. Klar. Immobilienwissen für Berlin & Umland.</h1>
+        <p class="sub">Recht verständlich (ohne Juristendeutsch, <strong>keine Rechtsberatung</strong>), Förderung im Überblick, Marktlogik erklärt – damit du bessere Entscheidungen triffst.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="https://www.instagram.com/smartliving.berlin" target="_blank" rel="noopener">Auf Instagram folgen</a>
+          <a class="btn" href="#aktuell">Zum Markt-Update</a>
+        </div>
+        <p class="note muted">Weiche CTAs für Awareness-Phase – keine Pflichtangaben, kein Druck.</p>
+      </div>
+      <div class="card">
+        <h3>Aktuell in 45 Sekunden</h3>
+        <ul class="list">
+          <li><strong>Urteil einfach:</strong> Maklerprovision – was heißt das praktisch?</li>
+          <li><strong>Förder-Kurzcheck:</strong> Welche KfW-Familie passt?</li>
+          <li><strong>Markt-Logik:</strong> Zins, Angebot, Nachfrage – ohne Mathe.</li>
+        </ul>
+        <a class="btn" href="#aktuell">Mehr lesen</a>
+      </div>
+    </section>
+
+    <section id="wissen" class="section">
+      <div class="grid kacheln">
+        <div class="card">
+          <h3>Markt & Zinsen</h3>
+          <p>Einfach erklärt: Wie Zins & Angebot den Preis beeinflussen – mit Beispielen aus Berlin & Umland.</p>
+          <a class="btn" href="#aktuell">Zum Update</a>
+        </div>
+        <div class="card">
+          <h3>Recht kompakt <span class="muted">(keine Rechtsberatung)</span></h3>
+          <p>Wichtige Urteile in Klartext: Was bedeutet das für Käufer, Verkäufer, Vermieter?</p>
+          <a class="btn" href="#aktuell">Urteil der Woche</a>
+        </div>
+        <div class="card">
+          <h3>Förderung</h3>
+          <p>Kurzüberblick: Modernisieren, Energie, altersgerecht – wo fängt man an?</p>
+          <a class="btn" href="#aktuell">Förder-Kompass</a>
+        </div>
+        <div class="card">
+          <h3>Für Eigentümer & Käufer</h3>
+          <p>Checklisten & Praxis: „Verkauf in 10 Schritten“, „Mietvertrag verstehen“, u. a.</p>
+          <a class="btn" href="#aktuell">Loslegen</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="aktuell" class="section two">
+      <div>
+        <h2>Aktuell & verständlich</h2>
+        <article class="card">
+          <h3>Maklerprovision – einfach erklärt</h3>
+          <p>Was bedeutet der Halbteilungs-Gedanke praktisch? Drei Punkte in Klartext – für Käufer & Verkäufer.</p>
+          <p class="legal">Hinweis: Informationen ohne Gewähr. <strong>Keine Rechtsberatung.</strong></p>
+        </article>
+        <article class="card">
+          <h3>Förder-Kurzcheck</h3>
+          <p>Modernisieren, Energie, Barrierefreiheit – so findest du in 2 Minuten den passenden Förderweg.</p>
+        </article>
+        <article class="card">
+          <h3>Markt-Logik Berlin & Umland</h3>
+          <p>Wie Zinsen, Angebot & Nachfrage zusammenspielen – mit anschaulichen Beispielen statt Fachjargon.</p>
+        </article>
+      </div>
+      <aside class="card">
+        <h3>Bleib auf dem Laufenden</h3>
+        <p>Folge <strong>@smartliving.berlin</strong> auf Instagram oder speichere diese Seite als Lesezeichen.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="https://www.instagram.com/smartliving.berlin" target="_blank" rel="noopener">Instagram öffnen</a>
+          <a class="btn" href="#social">Social-Wall</a>
+        </div>
+      </aside>
+    </section>
+
+    <section id="social" class="section">
+      <h2>Social-Wall</h2>
+      <div class="grid kacheln">
+        <div class="card"><h3>Reel 1</h3><p>„Urteil in 45 Sek.“ – Hook, 3 Punkte, CTA „Speichern“.</p></div>
+        <div class="card"><h3>Reel 2</h3><p>„Förderung in 3 Schritten“ – Mini-Guide.</p></div>
+        <div class="card"><h3>Reel 3</h3><p>„Zins-Logik erklärt“ – einfache Grafik.</p></div>
+      </div>
+      <p class="muted">Tipp: Verlinke in der IG-Bio diese Seite (Link-in-Bio).</p>
+    </section>
+
+    <section id="kontakt" class="section">
+      <h2>Über SmartLivingBerlin</h2>
+      <p>Ich erkläre Immobilien-Themen für Berlin & Umland (100 km) – klar, verständlich und praxisnah.</p>
+      <p class="legal"><strong>Rechtlicher Hinweis:</strong> Alle Inhalte dienen der Information. <strong>Keine Rechtsberatung.</strong></p>
+      <p class="muted">Kontakt: <a href="mailto:info@DEINE-DOMAIN.de">info@DEINE-DOMAIN.de</a></p>
+    </section>
+
+    <footer>
+      <div>© <span id="y"></span> SmartLivingBerlin</div>
+      <div class="muted"><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a></div>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
