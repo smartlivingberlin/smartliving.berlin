@@ -118,5 +118,19 @@
     "topic": "wissen",
     "excerpt": "Kurzbeschreibung in 1–2 Sätzen.",
     "slug": "mein-echter-titel"
+  },
+  {
+    "title": "Wohnungssuche: 5 Hebel",
+    "img": "img/card_3.jpg",
+    "topic": "wissen",
+    "excerpt": "Diese 5 Stellschrauben bringen dir Tempo & bessere Chancen.",
+    "slug": "wohnungssuche-5-hebel"
+  },
+  {
+    "title": "Wohnungssuche: 5 Hebel",
+    "img": "img/deinbild.jpg",
+    "topic": "wissen",
+    "excerpt": "Diese 5 Stellschrauben bringen dir Tempo & bessere Chancen.",
+    "slug": "wohnungssuche-5-hebel"
   }
 ]
