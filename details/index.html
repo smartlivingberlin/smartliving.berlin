@@ -35,4 +35,15 @@
 
   <!-- (Optional) Chat, falls du willst -->
   <script src="../crisp.js"></script>
+<script>const q=new URLSearchParams(location.search),slug=q.get("slug");
+fetch("../content.json").then(r=>r.json()).then(items=>{
+ const it=items.find(i=>i.slug===slug);
+ const m=document.getElementById("main");
+ if(!it){m.innerHTML="<p>Eintrag nicht gefunden.</p>";return;}
+ m.innerHTML=`<div class=meta><div class=badge>${it.topic||""}</div></div>
+   <h1 id=title>${it.title}</h1>
+   <img id=img alt="${it.title}" src="${it.img}" loading=lazy>
+   <div id=excerpt>${it.excerpt||""}</div>
+   <div id=actions><a class=btn href="../index.html#wissen">&larr; Zurück</a></div>`;
+});<\/script>
 </body>
