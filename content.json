@@ -137,5 +137,12 @@
     "topic": "wissen",
     "excerpt": "Kurzbeschreibung in 1–2 Sätzen.",
     "slug": "titel-der-karte"
+  },
+  {
+    "title": "Dein neuer Kartentitel",
+    "img": "img/card_3.jpg",
+    "topic": "wissen",
+    "excerpt": "Kurzbeschreibung in 1–2 Sätzen.",
+    "slug": "dein-neuer-kartentitel"
   }
 ]
