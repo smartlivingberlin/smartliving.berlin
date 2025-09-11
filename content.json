@@ -137,5 +137,12 @@
     "topic": "wissen",
     "excerpt": "Kurzbeschreibung in 1–2 Sätzen.",
     "slug": "dein-neuer-kartentitel"
+  },
+  {
+    "title": "Dein erster echter Tipp",
+    "img": "img/card_3.jpg",
+    "topic": "wissen",
+    "excerpt": "1–2 Sätze, warum das wichtig ist.",
+    "slug": "dein-erster-echter-tipp"
   }
 ]
