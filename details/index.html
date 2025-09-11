@@ -1,0 +1,38 @@
+<!doctype html><meta charset="utf-8">
+<title>Details • SmartLivingBerlin</title>
+<link rel="stylesheet" href="../app.css">
+<body>
+  <main id="main" class="main"></main>
+
+  <script>
+  // Klein, autark, ohne Build-Tool
+  function slugify(s){return (s||'').toLowerCase()
+    .replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue').replace(/ß/g,'ss')
+    .replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');}
+
+  const q = new URLSearchParams(location.search);
+  const wanted = q.get('slug') || '';
+
+  fetch('../content.json').then(r=>r.json()).then(items=>{
+    // Fallback: wenn im JSON kein slug-Feld existiert, nutze Titel-Slug
+    const match = items.find(x => x.slug === wanted || slugify(x.title) === wanted);
+    const el = document.getElementById('main');
+    if(!match){ el.innerHTML = '<p>Eintrag nicht gefunden.</p><p><a class="btn" href="../index.html#wissen">Zurück</a></p>'; return; }
+
+    el.innerHTML = `
+      <div class="header"><a class="btn" href="../index.html#wissen">← Zurück</a></div>
+      <h1>${match.title}</h1>
+      <div class="meta">
+        ${match.topic ? `<span>${match.topic}</span>`:''}
+        ${match.date  ? `<span>${match.date}</span>`:''}
+        ${match.source? `<a href="${match.source}" target="_blank" rel="noopener">Quelle</a>`:''}
+      </div>
+      ${match.img ? `<img src="..${match.img.startsWith('/')?'':'/'}${match.img}" alt="${match.title}" loading="lazy" style="width:100%;height:auto;border-radius:10px;margin:10px 0">` : ''}
+      ${match.excerpt? `<p class="excerpt">${match.excerpt}</p>`:''}
+    `;
+  }).catch(()=>{ document.getElementById('main').innerHTML='<p>Fehler beim Laden.</p>';});
+  </script>
+
+  <!-- (Optional) Chat, falls du willst -->
+  <script src="../crisp.js"></script>
+</body>
