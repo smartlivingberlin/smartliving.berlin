@@ -113,8 +113,8 @@
     "slug": "wohnungssuche-5-hebel"
   },
   {
-    "title": "Mein echter Titel",
-    "img": "img/card_3.jpg",
+    "title": "Dein schöner Titel",
+    "img": "img/wohntrends.jpg",
     "topic": "wissen",
     "excerpt": "Kurzbeschreibung in 1–2 Sätzen.",
     "slug": "mein-echter-titel"
@@ -134,10 +134,10 @@
     "slug": "wohnungssuche-5-hebel"
   },
   {
-    "title": "Mein echter Titel",
-    "img": "img/card_3.jpg",
+    "title": "Dein schöner Titel",
+    "img": "img/wohntrends.jpg",
     "topic": "wissen",
-    "excerpt": "Kurze Beschreibung in 1–2 Sätzen.",
+    "excerpt": "Kurzbeschreibung in 1–2 Sätzen.",
     "slug": "mein-echter-titel"
   }
 ]
