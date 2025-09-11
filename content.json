@@ -111,5 +111,12 @@
     "topic": "wissen",
     "excerpt": "Diese 5 Stellschrauben bringen dir Tempo & bessere Chancen.",
     "slug": "wohnungssuche-5-hebel"
+  },
+  {
+    "title": "Neuer Tipp: Dein Titel",
+    "img": "img/deinbild.jpg",
+    "topic": "wissen",
+    "excerpt": "Kurzer Teaser in 1–2 Sätzen.",
+    "slug": "neuer-tipp-dein-titel"
   }
 ]
