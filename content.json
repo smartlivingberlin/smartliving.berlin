@@ -77,5 +77,14 @@
     "url": "details/?slug=wohnungssuche-5-hebel",
     "slug": "wohnungssuche-5-hebel",
     "date": "2025-09-11T09:26:00+02:00"
+  },
+  {
+    "title": "Dein Titel hier",
+    "img": "img/wohntrends.jpg",
+    "topic": "wissen",
+    "excerpt": "Kurzbeschreibung hier",
+    "url": "details/?slug=dein-titel-hier",
+    "slug": "dein-titel-hier",
+    "date": "2025-09-11T09:26:22+02:00"
   }
 ]
