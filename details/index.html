@@ -20,7 +20,7 @@
     if(!match){ el.innerHTML = '<p>Eintrag nicht gefunden.</p><p><a class="btn" href="../index.html#wissen">Zurück</a></p>'; return; }
 
     el.innerHTML = `
-      <div class="header"><a class="btn" href="../index.html#wissen">← Zurück</a></div>
+      <div class="header"><a class="btn" href="../index.html">← Zurück</a><a class="btn" href="../index.html#wissen">← Zurück</a></div>
       <h1>${match.title}</h1>
       <div class="meta">
         ${match.topic ? `<span>${match.topic}</span>`:''}
