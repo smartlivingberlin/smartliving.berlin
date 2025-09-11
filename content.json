@@ -70,21 +70,46 @@
     "excerpt": "Zinsen steigen – was heißt das?"
   },
   {
+    "title": "Dein Titel",
+    "img": "img/deinbild.jpg",
+    "topic": "wissen",
+    "excerpt": "Kurzbeschreibung in 1–2 Sätzen.",
+    "url": "",
+    "slug": "dein-titel",
+    "date": "2025-09-11T09:40:36+02:00"
+  },
+  {
+    "title": "Dein Titel hier",
+    "img": "img/deinbild.jpg",
+    "topic": "wissen",
+    "excerpt": "Kurzbeschreibung in 1–2 Sätzen.",
+    "url": "",
+    "slug": "dein-titel-hier",
+    "date": "2025-09-11T09:42:01+02:00"
+  },
+  {
     "title": "Wohnungssuche: 5 Hebel",
     "img": "img/wohntrends.jpg",
     "topic": "wissen",
     "excerpt": "Diese 5 Stellschrauben bringen dir Tempo & bessere Chancen.",
-    "url": "details/?slug=wohnungssuche-5-hebel",
+    "url": "",
     "slug": "wohnungssuche-5-hebel",
-    "date": "2025-09-11T09:26:00+02:00"
+    "date": "2025-09-11T09:53:55+02:00"
   },
   {
-    "title": "Dein Titel hier",
+    "title": "Neuer Titel",
+    "img": "img/deinbild.jpg",
+    "topic": "wissen",
+    "excerpt": "Kurzer Teaser.",
+    "url": "",
+    "slug": "neuer-titel",
+    "date": "2025-09-11T09:54:33+02:00"
+  },
+  {
+    "title": "Wohnungssuche: 5 Hebel",
     "img": "img/wohntrends.jpg",
     "topic": "wissen",
-    "excerpt": "Kurzbeschreibung hier",
-    "url": "details/?slug=dein-titel-hier",
-    "slug": "dein-titel-hier",
-    "date": "2025-09-11T09:26:22+02:00"
+    "excerpt": "Diese 5 Stellschrauben bringen dir Tempo & bessere Chancen.",
+    "slug": "wohnungssuche-5-hebel"
   }
 ]
