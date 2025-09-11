@@ -1,3 +1,6 @@
 *.bak
 content.backup*
 index.backup*
+content.backup*
+index.backup*
+*.bak
