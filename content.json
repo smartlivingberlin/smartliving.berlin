@@ -68,5 +68,14 @@
     "img": "./card_4.jpg",
     "topic": "#wissen",
     "excerpt": "Zinsen steigen – was heißt das?"
+  },
+  {
+    "title": "Wohnungssuche: 5 Hebel",
+    "img": "img/wohntrends.jpg",
+    "topic": "wissen",
+    "excerpt": "Diese 5 Stellschrauben bringen dir Tempo & bessere Chancen.",
+    "url": "details/?slug=wohnungssuche-5-hebel",
+    "slug": "wohnungssuche-5-hebel",
+    "date": "2025-09-11T09:26:00+02:00"
   }
 ]
