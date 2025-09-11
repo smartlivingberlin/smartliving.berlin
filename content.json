@@ -132,5 +132,12 @@
     "topic": "wissen",
     "excerpt": "Diese 5 Stellschrauben bringen dir Tempo & bessere Chancen.",
     "slug": "wohnungssuche-5-hebel"
+  },
+  {
+    "title": "Mein echter Titel",
+    "img": "img/card_3.jpg",
+    "topic": "wissen",
+    "excerpt": "Kurze Beschreibung in 1–2 Sätzen.",
+    "slug": "mein-echter-titel"
   }
 ]
