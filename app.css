@@ -1,0 +1,8 @@
+.reveal{opacity:0;transform:translateY(10px);transition:opacity .35s ease,transform .35s ease}
+.reveal.in{opacity:1;transform:none}
+.searchbar{display:flex;gap:10px;align-items:center;margin:10px 0}
+.searchbar input{padding:10px 12px;border:1px solid var(--border,#e5e7eb);border-radius:10px;min-width:220px}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid var(--border,#e5e7eb)}
+.btn:hover{transform:translateY(-1px)}
+.hero{background-size:400% 400%;animation:gradient 18s ease infinite}
+@keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
