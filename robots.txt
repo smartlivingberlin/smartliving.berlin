@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://smartlivingberlin.github.io/smartliving.berlin/sitemap.xml
+Sitemap: https://smartlivingberlin.github.io/sitemap.xml
