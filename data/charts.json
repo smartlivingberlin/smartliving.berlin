@@ -1,0 +1,5 @@
+{
+  "zins": { "labels": ["Jan","Feb","Mrz","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"],
+            "data":   [2.1,2.4,2.8,3.2,3.5,3.7,3.9,4.0,3.7,3.5,3.4,3.3] },
+  "energie": { "labels": ["Q1","Q2","Q3","Q4"], "data": [100,92,88,85] }
+}

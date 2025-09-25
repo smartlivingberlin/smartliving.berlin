@@ -1,0 +1,14 @@
+[
+  {"title":"3-Zi Altbau, Prenzlauer Berg","price":"€ 645.000","location":"Berlin-Pankow","category":"Kauf",
+   "images":["https://source.unsplash.com/800x600/?interior,berlin"],"page":"#"},
+  {"title":"Möbliertes Loft, Kreuzberg","price":"€ 1.890 kalt","location":"Berlin-Kreuzberg","category":"Miete",
+   "images":["https://source.unsplash.com/800x600/?loft,berlin"],"page":"#"},
+  {"title":"Balkonkraftwerk 800W Set","price":"€ 699","location":"DE","category":"Smart Living",
+   "images":["https://source.unsplash.com/800x600/?solar,balcony"],"page":"#"},
+  {"title":"Förderberatung Sanierung","price":"ab € 0 (Erstcheck)","location":"Berlin","category":"Service",
+   "images":["https://source.unsplash.com/800x600/?architecture,plan"],"page":"#"},
+  {"title":"Homestaging Paket S","price":"ab € 950","location":"Berlin","category":"Design",
+   "images":["https://source.unsplash.com/800x600/?homestaging"],"page":"#"},
+  {"title":"Tiny House Stellplatz","price":"auf Anfrage","location":"Brandenburg","category":"Projekt",
+   "images":["https://source.unsplash.com/800x600/?tiny-house"],"page":"#"}
+]
