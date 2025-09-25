@@ -4,6 +4,3 @@ index.backup*
 content.backup*
 index.backup*
 *.bak
-backup-*.tar.gz
-backup-*.tar
-/backups/
